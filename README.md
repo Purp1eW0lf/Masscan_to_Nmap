@@ -24,7 +24,7 @@ Adding the `-n` flag will specify the network, such as eth0 or tun0. If you don'
 
 ### Contact
 If you notice a way the script can be improved you're welcome to make requests and raise issues. 
-You're also welcome to slide in my Twitter DMs and tell me how shit the logger is.
+You're also welcome to slide in my Twitter DMs and tell me how shit the scanner is.
 [@Purp1eW0lf](https://twitter.com/Purp1eW0lf)
 
 #### License
