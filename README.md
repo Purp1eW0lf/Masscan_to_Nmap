@@ -20,7 +20,7 @@ Adding the `-n` flag will specify the network, such as eth0 or tun0. If you don'
 ![options](https://github.com/Purp1eW0lf/Masscan_to_Nmap/blob/main/images/Options.png)
 
 ### Examples
-![Nmap](https://github.com/Purp1eW0lf/Masscan_to_Nmap/blob/main/images/masscan_map.png)
+![Masscan_Nmap](https://github.com/Purp1eW0lf/Masscan_to_Nmap/blob/main/images/masscan_nmap.png)
 
 ### Contact
 If you notice a way the script can be improved you're welcome to make requests and raise issues. 
