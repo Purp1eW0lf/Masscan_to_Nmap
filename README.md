@@ -5,7 +5,7 @@ Python script that runs Masscan against an IP to collect open ports, feed those 
 
 My main process for CTFs was to run Masscan, which would find the TCP & UDP ports that were open on a target. I'd then copy and paste those open ports, and ask Nmap to run those ports and find the service versions and run the default enumeration scripts.
 
-I wanted to auomate this, so I could just fire off a script with a given IP and then go and make a coffee whilst it runs. This script prints out the nmap results and also saves a copy in your directory as well.
+I wanted to automate this, so I could just fire off a script with a given IP and then go and make a coffee whilst it runs. This script prints out the Nmap results and also saves a copy in your directory as well.
 
 ### Installation
 ```bash
@@ -15,7 +15,7 @@ wget https://raw.githubusercontent.com/Purp1eW0lf/Masscan_to_Nmap/main/masscan_t
 ```bash
 sudo python3 masscan_to_nmap.py -i 10.10.10.11
 ```
-Adding the `-n` flag will specify the network, such as eth0 or tun0. If you don't specify a network flag, it will take tun0 as the default network to use
+Adding the `-n` flag will specify the network, such as eth0 or tun0. If you don't specify a network flag, it will take tun0 as the default network to use. 
 
 ![options](https://github.com/Purp1eW0lf/Masscan_to_Nmap/blob/main/images/Options.png)
 
