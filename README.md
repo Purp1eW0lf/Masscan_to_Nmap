@@ -22,8 +22,13 @@ Adding the `-n` flag will specify the network, such as eth0 or tun0. If you don'
 ### Examples
 ![Masscan_Nmap](https://github.com/Purp1eW0lf/Masscan_to_Nmap/blob/main/images/masscan_nmap.png)
 
+### Known Issues
+
+Masscan can hang and start counting into the minus numbers. It normally resolves itself under 'minus' seventy seconds, if not sooner.
+
 ### Contact
 If you notice a way the script can be improved you're welcome to make requests and raise issues. 
+
 You're also welcome to slide in my Twitter DMs and tell me how shit the scanner is.
 [@Purp1eW0lf](https://twitter.com/Purp1eW0lf)
 
