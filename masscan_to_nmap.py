@@ -20,7 +20,7 @@ ports = grepped_ports.stdout
                                                                                                                                                        
 #Nmap scan, and output results to a txt file                                                                                                           
 nmap_cmd = ("sudo nmap " + args.ip + " -T4 -A -Pn -p " + ports + " > nmap_" + args.ip + ".txt")                                                        
-print ("\nRunning Nmap full nmap scan against \033[1;32;40m" + args.ip + "\033[0;37;40m with the following ports \033[1;32;40m" + ports + "\033[0;37;40m \n")                                                                                                                                                  
+print ("\nRunning Nmap scan against \033[1;32;40m" + args.ip + "\033[0;37;40m with the following ports \033[1;32;40m" + ports + "\033[0;37;40m \n")                                                                                                                                                  
 subprocess.call(nmap_cmd, shell=True)                                                                                                                  
                                                                                                                                                        
 #delete masscan.txt now it's served its grep purpose                                                                                                   
