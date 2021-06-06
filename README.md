@@ -24,7 +24,7 @@ Adding the `-n` flag will specify the network, such as eth0 or tun0. If you don'
 
 ### Known Issues
 
-Masscan can hang and start counting into the minus numbers. It normally resolves itself under 'minus' 120 seconds, if not sooner. It's a masscan issue, related to scanning during a VPN. 
+Masscan can hang and start counting into the minus numbers. It normally resolves itself under 'minus' 200 seconds, if not sooner. It's a masscan issue, related to scanning when using a VPN. 
 
 ### Contact
 If you notice a way the script can be improved you're welcome to make requests and raise issues. 
